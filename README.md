@@ -21,9 +21,11 @@ We need to just run a single command to bring up all the database server at once
 > docker-compose up -d
 
 Command prompt output-
+
 ![Command prompt output](https://raw.githubusercontent.com/LearnGrowAndShare/local-db-enviroment/main/docs/cmd-output.png)
 
 Docker desktop output-
+
 ![Docker desktop output](https://raw.githubusercontent.com/LearnGrowAndShare/local-db-enviroment/main/docs/docker-desktop.png)
 
 To run single database server, just specify {database_server}-docker-compose.yml
