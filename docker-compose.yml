@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+   sqldatabase:
+    extends:
+      file: mssql-docker-compose.yml
+      service: sql-server-db
+   mysqldatabase:
+    extends:
+      file: mysql-docker-compose.yml
+      service: mysql-db
+   pgSqldatabase:
+    extends:
+      file: postgres-docker-compose.yml
+      service: pg_database
+volumes:
+ mssql-db-system:  
+ mssql-db-data-files:  
+ mysql-db-data:
+ pg-database-data: 
